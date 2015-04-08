@@ -19,15 +19,15 @@ public class Nomor1 {
 	}
 
 	private static int fibo(int n){
-		int prev=-1;
-                int res=1;
+		int p=-1;
+                int r=1;
                 
            for(int i=1; i<=n; i++){
-                int sum = res + prev;
-                prev= res;
-                res = sum;
+                int sum = r + p;
+                p= r;
+                r = sum;
            }
-        return res;
+        return r;
                 
                 
 	}
